@@ -8,8 +8,8 @@ const SUPPORT_EMAIL = "";
 // The record must be updated from a verified source when the shipment changes.
 // This frontend-only version does not receive live carrier updates.
 const shipments = {
-"FDX-HOU-82649173": {
-trackingNumber: "FDX-HOU-82649173",
+"FEDEX-HOU-82649173": {
+trackingNumber: "FEDEX-HOU-82649173",
 status: "In Transit",
 origin: "Coon Rapids, Minnesota, USA",
 destination: "Houston, Texas, USA",
@@ -87,9 +87,9 @@ menuToggle.textContent = "☰";
 
 // Configure customer support email.
 if (SUPPORT_EMAIL.trim()) {
-const subject = encodeURIComponent("FDX Shipment Support Inquiry");
+const subject = encodeURIComponent("FEDEX Shipment Support Inquiry");
 const body = encodeURIComponent(
-"Hello FDX Support,\n\n" +
+"Hello FEDEX Support,\n\n" +
 "I need assistance with a shipment.\n\n" +
 "Tracking number: \n\n" +
 "Thank you."
@@ -192,7 +192,7 @@ window.setTimeout(() => {
     } else {
         trackingResults.hidden = true;
         formMessage.textContent =
-            "We could not find that tracking number. Please check it or contact FDX support.";
+            "We could not find that tracking number. Please check it or contact FEDEX support.";
         formMessage.style.color = "#c92534";
     }
 
