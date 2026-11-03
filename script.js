@@ -25,15 +25,15 @@ destinationHub: "Houston, Texas",
         },
         {
             title: "In Transit",
-            description: "Shipment is in transit toward its destination.",
+            description: "Shipment is in transit toward.",
             date: "",
-            state: "current"
+            state: "completed"
         },
         {
             title: "Out for Delivery",
-            description: "Pending confirmation from the shipping provider.",
+            description: "Your shipment is currently out for delivery and is on its way to the recipient's delivery address.",
             date: "",
-            state: "pending"
+            state: "current"
         },
         {
             title: "Delivered",
