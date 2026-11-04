@@ -33,13 +33,13 @@ destinationHub: "Houston, Texas",
             title: "Out for Delivery",
             description: "Your shipment is currently out for delivery and is on its way to the recipient's delivery address.",
             date: "",
-            state: "current"
+            state: "completed"
         },
         {
             title: "Delivered",
-            description: "Awaiting confirmed delivery information.",
+            description: "Your shipment has been successfully delivered to the recipient.",
             date: "",
-            state: "pending"
+            state: "completed"
         }
     ],
 
