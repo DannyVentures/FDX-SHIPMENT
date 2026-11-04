@@ -483,11 +483,19 @@ flex-shrink: 0;
 background: var(--green);
 box-shadow: 0 0 0 5px #e2f5ed;
 }
-
+ 
 .destination-dot {
-background: var(--red);
-box-shadow: 0 0 0 5px #ffe6e8;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #e83e75;
 }
+
+.destination-dot.delivered {
+    background-color: #16a34a;
+}
+
 
 .route-point h3 {
 color: var(--navy);

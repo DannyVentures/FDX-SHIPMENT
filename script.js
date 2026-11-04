@@ -10,7 +10,7 @@ const SUPPORT_EMAIL = "";
 const shipments = {
 "FEDEX-HOU-82649173": {
 trackingNumber: "FEDEX-HOU-82649173",
-status: "In Transit",
+status: "Delivered",
 origin: "Coon Rapids, Minnesota, USA",
 destination: "Houston, Texas, USA",
 destinationHub: "Houston, Texas",
